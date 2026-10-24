@@ -2,6 +2,8 @@
 
 額度用得很快，卻不知道 token 花到哪去了？這個 skill 會掃一遍電腦裡的 Claude Code 對話紀錄，把最近的 token 用量依專案、對話、模型、日期、工具拆開，找出最耗的地方，再告訴你可以怎麼省。**只讀紀錄，不會改任何檔案，也不會傳到任何地方。**
 
+English version: [token-usage-report-en](https://github.com/lng255639-cpu/token-usage-report-en)（流程相同，英文觸發詞和報告）。
+
 ## 安裝
 
 需要 [Claude Code](https://claude.com/claude-code) 和 Node.js 18 以上（不用裝其他套件）。把這個 repo clone 到 Claude Code 的 skills 資料夾：

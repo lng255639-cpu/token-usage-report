@@ -3,7 +3,7 @@ name: token-usage-report
 description: |
   自動掃描本機 Claude Code 對話紀錄（~/.claude/projects/**/*.jsonl），找出最近 token 花到哪裡去，依專案、對話、模型、日期、主對話／子代理、工具結果、hook 注入、快取重建、單次最貴呼叫列出來，並指出可以省的地方。
   觸發時機：使用者說「token 用到哪」「最近 token 花在哪」「token 去向」「查 token 用量」「為什麼額度用這麼快」「哪個對話最耗 token」「usage 報告」，或輸入 /token-usage-report（可加天數、小時、專案關鍵字）。
-  不要觸發：只問這一個對話本身的用量（用 anthropic-skills:explain-usage）、要換算成美金的成本報表（用 claude-mem:agent-cost-report）、問 API 計價規則。
+  不要觸發：只問這一個對話本身的用量（用 anthropic-skills:explain-usage）、要換算成美金的成本報表（用 claude-mem:agent-cost-report）、問 API 計價規則、使用者用英文提出（改用 token-usage-report-en）。
 user-invocable: true
 ---
 
